@@ -21,8 +21,7 @@ async function fetchLatestNews() {
 }
 
 async function summarizeNews(newsItem) {
-    console.log("🧠 Thinking with Gemini AI...");
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
     // Strict prompting to ensure consistent JSON formatting out of the LLM
     const prompt = `
