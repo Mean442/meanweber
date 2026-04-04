@@ -1,7 +1,7 @@
 # 🚀 Meanweber Next-Generation Tech Blog
 Welcome to the **Meanweber Tech Blog** repository! 
 This project is a high-performance, single-page application (SPA) designed with a premium, Awwwards-winning UI/UX aesthetic. It is completely driven by pure Vanilla JavaScript, zero heavy framework dependencies, and automated by AI!
-![Meanweber Blog](content/images/about.png)
+
 ## ✨ Core Features
 *   **⚡ Blazing Fast Performance:** 100% Vanilla JS architecture. No loading screens, no heavy frameworks—built for maximum SEO & Core Web Vitals scores.
 *   **🎨 Premium Awwwards UI/UX:** 
