@@ -1,0 +1,29 @@
+# Meanweber Tech Blog
+
+> A premium tech and developer blog focused on UI/UX design, programming, and SEO best practices by Meanweber.
+
+## About
+Meanweber is a dedicated platform for software developers, UI/UX designers, and tech enthusiasts. The blog explores next-generation development concepts, modern design aesthetics (like white space and dynamic typography), and strategies for highly optimized web performance and SEO. 
+
+The primary language of the blog is Thai, catering to the local developer community while maintaining world-class design standards.
+
+## Key Topics & Categories
+- **Web Development**: HTML, CSS, JavaScript, and modern frameworks.
+- **UI/UX Design**: Creating premium, user-friendly digital experiences, typography, micro-animations.
+- **SEO & Search Optimization**: Traditional SEO strategies, Schema.org implementation, and new age Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).
+
+## Target Audience
+- Software Developers and Engineers
+- UI/UX Designers
+- SEO Specialists
+
+## Important Links
+- **Homepage**: https://www.meanweber.com/
+- **Articles**: https://www.meanweber.com/#articles
+- **Contact**: contact@meanweber.com
+
+## Technical Details (For LLM and Crawler Context)
+- The site follows semantic HTML5 standard.
+- Implements Open Graph (OG) tags for optimal social sharing.
+- Uses strict Schema.org JSON-LD structured data to establish entity recognition.
+- Designed with progressive enhancement and responsive fluid layouts.

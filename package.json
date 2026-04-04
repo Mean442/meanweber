@@ -1,0 +1,14 @@
+{
+  "name": "meanweber-blog-automation",
+  "version": "1.0.0",
+  "description": "Automated news update bot using Node.js and Gemini AI",
+  "main": "scripts/daily-news.js",
+  "scripts": {
+    "start": "node scripts/daily-news.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "rss-parser": "^3.13.0"
+  },
+  "type": "module"
+}
