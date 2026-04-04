@@ -1,5 +1,13 @@
 const blogPosts = [
     {
+        "id": "news-1775321868397",
+        "title": "⚠️ Bot System Error Alert",
+        "excerpt": "ระบบอัตโนมัติพบปัญหา: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.. กรุณาตรวจเช็ก API Key หรือโครงสร้างข่าว. (🤖 AI-Automated Post)",
+        "image": "content/images/uiux-cover.png",
+        "date": "4 เมษายน 2569",
+        "link": "#post/news-1775321868397"
+    },
+    {
         "id": "news-1775321674382",
         "title": "ตัวอย่างข่าวอัปเดตอัตโนมัติ (Mock)",
         "excerpt": "นี่คือการทดสอบการทำงานของหุ่นยนต์รันในเครื่อง... (🤖 AI-Automated Post)",
