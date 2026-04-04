@@ -109,10 +109,15 @@ async function run() {
         console.log("Processing translation...");
         const aiSummary = await summarizeNews(news);
         updateDataFile(aiSummary);
-
+        
     } catch (err) {
         console.error("❌ Bot encountered an error:", err);
-        process.exit(1); // Tell GitHub Action to mark as Failed
+        // Fallback: Post the error directly to the website for simple debugging
+        updateDataFile({
+            title: "⚠️ Bot System Error Alert",
+            excerpt: "ระบบอัตโนมัติพบปัญหา: " + err.message + ". กรุณาตรวจเช็ก API Key หรือโครงสร้างข่าว."
+        });
+        process.exit(0); // Exit properly so GitHub saves the error message
     }
 }
 

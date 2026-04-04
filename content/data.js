@@ -1,5 +1,13 @@
 const blogPosts = [
     {
+        "id": "news-1775321674382",
+        "title": "ตัวอย่างข่าวอัปเดตอัตโนมัติ (Mock)",
+        "excerpt": "นี่คือการทดสอบการทำงานของหุ่นยนต์รันในเครื่อง... (🤖 AI-Automated Post)",
+        "image": "content/images/uiux-cover.png",
+        "date": "4 เมษายน 2569",
+        "link": "#post/news-1775321674382"
+    },
+    {
         "id": "seo-modern",
         "title": "SEO สำหรับเว็บไซต์สมัยใหม่",
         "excerpt": "วิธีการปรับแต่งเว็บไซต์ HTML ธรรมดาให้ติดหน้าแรกกูเกิลด้วย Schema และ Semantic tags.",
