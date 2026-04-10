@@ -7,7 +7,7 @@
     "start": "node scripts/daily-news.js"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.2.1",
+    "@google/genai": "^1.48.0",
     "rss-parser": "^3.13.0"
   },
   "type": "module"
