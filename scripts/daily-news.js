@@ -155,9 +155,18 @@ function updateDataFile(aiContent) {
 
     const insertionIndex = arrayStart + signature.length;
 
-    // Escape any double quotes in AI-generated content to prevent JS syntax errors
-    const safeTitle = newEntry.title.replace(/"/g, '\\"');
-    const safeExcerpt = newEntry.excerpt.replace(/"/g, '\\"');
+    // Sanitize AI-generated content to prevent JS syntax errors
+    // Must escape: backslashes, newlines, carriage returns, tabs, and double quotes
+    const sanitize = (str) => str
+        .replace(/\\/g, '\\\\')       // backslashes first
+        .replace(/"/g, '\\"')         // double quotes
+        .replace(/\n/g, ' ')          // newlines → space
+        .replace(/\r/g, '')           // carriage returns → remove
+        .replace(/\t/g, ' ')          // tabs → space
+        .replace(/\s{2,}/g, ' ')      // collapse multiple spaces
+        .trim();
+    const safeTitle = sanitize(newEntry.title);
+    const safeExcerpt = sanitize(newEntry.excerpt);
 
     // Format new entry as string formatted with indents for clean code pushes
     const entryString = `\n    {\n        "id": "${newEntry.id}",\n        "title": "${safeTitle}",\n        "excerpt": "${safeExcerpt}",\n        "image": "${newEntry.image}",\n        "date": "${newEntry.date}",\n        "link": "${newEntry.link}"\n    },`;
